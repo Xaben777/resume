@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Course</title>
+    <meta name="keywords" content="html, course, css, tags">
+    <meta name="description" content="Это базовый курс по html">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+<div class="container">
+    <div class="info">
+
+    <img src="imgs/avatar.jpg"  alt="аватарочка" class="avatar">
+
+    <div class="info-text">
+    <h1>Артемий Базанов</h1>
+
+    <p>Я <strong>бакалавр</strong> и начинающий <strong>Frontend-разработчик</strong></p>
+
+    <p>Я люблю <em>играть в компьютерные игры, смотреть аниме и программировать</em></p>
+
+    <h4>Список социальных сетей:</h4>
+
+    <a href="https://telegram.org" target="_blank">Telegram</a>
+    | 
+    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+    |
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+</div> 
+    </div>
+    <div class="card bg-hobby">
+    <h2>Мои хобби</h2>
+    <ol class="list">
+        <li>Аниме</li>
+        <li>Игры</li>
+        <li>Книги</li>
+        <li>Блоггинг</li>
+        <li>Стихи</li>
+    </ol>
+    </div>
+
+    <div class="card bg-work-experience">
+    <h2>Опыт Работы</h2>
+
+    <table class="table">
+        <!-- <thead>
+            <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Год</th>
+            </tr>
+        </thead> -->
+        <tbody>
+        <tr>
+            <td>Kwork</td>
+            <td>Фрилансер</td>
+            <td>2015-2016</td>
+        </tr>
+        <tr>
+            <td>Яндекс</td>
+            <td>Frontend</td>
+            <td>2016-2018</td>
+        </tr>
+        <tr>
+            <td>EPAM</td>
+            <td>FullStack</td>
+            <td>2018 - сейчас</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+    <form action="/" class= "form">
+        <h2>Связаться со мной</h2>
+
+        <div class="form-row">
+
+       
+        
+    <div class="form-group">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="Введите имя">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" placeholder="Введите email">
+    </div>
+</div>
+
+
+    <div class="form-group">
+        <label for="message">Ваше сообщение:</label>
+        <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
+    </div>
+</div>
+    <button type="submit" class="btn">Отправить!</button>
+
+    </form>
+</div>
+</div>
+</body>
+</html>
